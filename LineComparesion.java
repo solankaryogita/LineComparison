@@ -9,7 +9,7 @@ public class LineComparesion {
 	public static void main(String[] args) {
 
 		    System.out.println("Welcome to Line comparison ");
-		    Integer x1=2 , x2=4 , y1=4 , y2=6, p1=2 , p2=4 , q1=4 , q2=8;
+		    Integer x1=2 , x2=6 , y1=4 , y2=6, p1=2 , p2=5 , q1=4 , q2=5;
 
 		    Double AB, PQ;
 
@@ -21,6 +21,10 @@ public class LineComparesion {
 
 		    System.out.println("Check Two lines are equal or not :");
 		    System.out.println(AB.equals(PQ));
+		    
+		    System.out.println("Compare two lines :");
+		    System.out.println(AB.compareTo(PQ));
+
 	}
 }
 
