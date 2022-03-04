@@ -8,7 +8,7 @@ public class LineComparesion {
 
 	public static void main(String[] args) {
 
-		    System.out.println("Welcome to Line comparison computation");
+		    System.out.println("Welcome to Line comparison ");
 		    
 	}
 }
