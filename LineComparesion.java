@@ -5,10 +5,9 @@ import java.lang.Math.*;
 
 
 public class LineComparesion {
-
-	public static void main(String[] args) {
-
-		    System.out.println("Welcome to Line comparison ");
+	public void line()
+	{
+		 System.out.println("Welcome to Line comparison ");
 		    Integer x1=2 , x2=6 , y1=4 , y2=6, p1=2 , p2=5 , q1=4 , q2=5;
 
 		    Double AB, PQ;
@@ -24,6 +23,12 @@ public class LineComparesion {
 		    
 		    System.out.println("Compare two lines :");
 		    System.out.println(AB.compareTo(PQ));
+	}
+
+	public static void main(String[] args) {
+		LineComparesion lc = new LineComparesion();
+		lc.line();
+		   
 
 	}
 }
